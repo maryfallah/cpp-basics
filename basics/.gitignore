@@ -1,10 +1,18 @@
-# C++ Build Outputs
+# C++ Build Outputs (Add all the files/folders you want to delete from GitHub)
 build/
 *.o
 *.out
 *.exe
-*.dSYM # This is visible in your file explorer, so it must be ignored!
+# Build directory
+build/
 
-# VS Code and Git-related files
-.vscode/
-.DS_Store
+# Executables committed without extension
+calculate-circle-area
+calculation
+celsius-to-fahrenheit
+gen-rand-num
+hello-world
+tax-calculation
+
+# Debug Symbol Directories (macOS)
+*.dSYM/
