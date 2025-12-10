@@ -1,0 +1,10 @@
+# C++ Build Outputs
+build/
+*.o
+*.out
+*.exe
+*.dSYM # This is visible in your file explorer, so it must be ignored!
+
+# VS Code and Git-related files
+.vscode/
+.DS_Store
